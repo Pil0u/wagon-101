@@ -6,8 +6,8 @@ This repository plays two main roles:
 
 As this is tailored to my personal experience, it may or may not be exhaustive to you. Feel free to fork or add comments.
 
-* [HTML 101](../html.md)
-* [CSS 101](../css.md)
+* [HTML 101](./html.md)
+* [CSS 101](./css.md)
 * [JavaScript 101](#)
-* [Coding tips & tricks](../tips_tricks.md)
+* [Coding tips & tricks](./tips_tricks.md)
 * [Product management resources](#)
