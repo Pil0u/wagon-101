@@ -18,7 +18,7 @@ The style of an HTML page will be handled with CSS. However, HTML has *italic* a
 Image syntax: `<img src="path_to_image" />`. The final `/` is optional. Use the `alt` attribute to describe the image (+ SEO).  
 Video syntax: `<video src="path_to_video" width="640" height="480" controls>Text when video is not supported</video>`.  
 
-**[Codecademy cheatsheet](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference)**
+[Codecademy cheatsheet](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference)
 
 The anchor HTML element creates hyperlinks. Example: `<a href="https://www.codecademy.com">Codecademy</a>`.  
 You can use an HTML `id` as the `href` attribute.  
