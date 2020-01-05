@@ -11,3 +11,4 @@ As this is tailored to my personal experience, it may or may not be exhaustive t
 * [JavaScript 101](#)
 * [Coding tips & tricks](./tips_tricks.md)
 * [Product management resources](#)
+* [Mood tracker & personal journal](#)
