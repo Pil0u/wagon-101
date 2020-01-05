@@ -13,7 +13,7 @@ This repository plays two main roles:
 
 ### Codecademy
 
-`<p>` This is a tag
-A tag can have attributes (i.e. `id`, `class`). An attribute has a **name** and a **value**.
+`<p>` This is a tag  
+A tag can have attributes (i.e. `id`, `class`). An attribute has a **name** and a **value**.  
 > It’s best to use a `<span>` element when you want to target a specific piece of content that is inline, or on the same line as other text.
 
