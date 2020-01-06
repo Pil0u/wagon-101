@@ -12,3 +12,5 @@ As this is tailored to my personal experience, it may or may not be exhaustive t
 * [Coding tips & tricks](./tips_tricks.md)
 * [Product management resources](#)
 * [Mood tracker & personal journal](#)
+
+(Work in progress...)
