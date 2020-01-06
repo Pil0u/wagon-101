@@ -1,4 +1,4 @@
-# CSS
+# CSS 101
 
 This page was written following [CodeCademy Learn CSS](https://www.codecademy.com/learn/learn-css/) and Le Wagon's additional resources.
 

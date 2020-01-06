@@ -1,4 +1,4 @@
-# HTML
+# HTML 101
 
 This page was written following [CodeCademy Introduction to HTML](https://www.codecademy.com/learn/learn-html/) and Le Wagon's additional resources.
 
@@ -10,19 +10,19 @@ This page was written following [CodeCademy Introduction to HTML](https://www.co
 The basics
 ----------
 
-Vocabulary: `<tag attributeName="attributeValue">content</tag>`  
+Vocabulary: `<tag attributeName="attributeValue">content</tag>`
 
 > It’s best to use a `<span>` element when you want to target a specific piece of content that is in-line, or on the same line as other text.
 
-The style of an HTML page will be handled with CSS. However, HTML has *italic* and **bold** tags, `<em>` (for emphasize) and `<strong>`.  
-Image syntax: `<img src="path_to_image" />`. The final `/` is optional. Use the `alt` attribute to describe the image (+ SEO).  
-Video syntax: `<video src="path_to_video" width="640" height="480" controls>Text when video is not supported</video>`.  
+The style of an HTML page will be handled with CSS. However, HTML has *italic* and **bold** tags, `<em>` (for emphasize) and `<strong>`.
+Image syntax: `<img src="path_to_image" />`. The final `/` is optional. Use the `alt` attribute to describe the image (+ SEO).
+Video syntax: `<video src="path_to_video" width="640" height="480" controls>Text when video is not supported</video>`.
 
 [Codecademy cheatsheet](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference)
 
-The anchor HTML element creates hyperlinks. Example: `<a href="https://www.codecademy.com">Codecademy</a>`.  
-You can use an HTML `id` as the `href` attribute.  
-The attribute `target="_blank"` could be added to make the browser open the link in a new tab.  
+The anchor HTML element creates hyperlinks. Example: `<a href="https://www.codecademy.com">Codecademy</a>`.
+You can use an HTML `id` as the `href` attribute.
+The attribute `target="_blank"` could be added to make the browser open the link in a new tab.
 
 Typical structure of a HTML file:
 
@@ -103,13 +103,13 @@ Raw form with major input types:
     			<input type="text" name="patty" id="patty">
         </section>
         <hr>
-        
+
         <section class="patties">
           <label for="amount">How many patties would you like?</label>
           <input type="number" name="amount" id="amount">
         </section>
         <hr>
-        
+
         <section class="cooked">
           <label for="doneness">How do you want your patty cooked</label>
           <br>
@@ -118,7 +118,7 @@ Raw form with major input types:
           <span>Well-Done</span>
         </section>
         <hr>
-        
+
         <section class="toppings">
           <span>What toppings would you like?</span>
           <br>
@@ -130,7 +130,7 @@ Raw form with major input types:
           <label for="onion">Onion</label>
         </section>
         <hr>
-        
+
         <section class="cheesy">
           <span>Would you like to add cheese?</span>
           <br>
@@ -140,7 +140,7 @@ Raw form with major input types:
           <label for="no">No</label>
         </section>
         <hr>
-       
+
         <section class="bun-type">
           <label for="bun">What type of bun would you like?</label>
           <select name="bun" id="bun">
@@ -150,7 +150,7 @@ Raw form with major input types:
           </select>
         </section>
         <hr>
-        
+
         <section class="sauce-selection">
           <label for="sauce">What type of sauce would you like?</label>
           <input list="sauces" id="sauce" name="sauce">
@@ -187,6 +187,6 @@ Semantic HTML
 -------------
 
 Semantic HTML provides context within the structure of the HTML page:
-* with structural tags like `<header>`, `<nav>`, `<main>`, `<footer>`, `<section>`, `<article>`, `<aside>` 
+* with structural tags like `<header>`, `<nav>`, `<main>`, `<footer>`, `<section>`, `<article>`, `<aside>`
 * with media integration tags like `<figure>` and its `<figcaption>`, `<video>`, `<embed>` and `<audio>`
 * Notes: within `<figure>` you add an `<img src="">` tag, within `<audio>` you add a `<source src="">` tag but `<video>` and `<embed>` already have their own `src` tag. Don't forget to add controls in `<audio>` and `<video>`!
