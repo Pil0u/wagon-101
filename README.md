@@ -9,7 +9,7 @@ As this is tailored to my personal experience, it may or may not be exhaustive t
 * [HTML 101](./html.md)
 * [CSS 101](./css.md)
 * [JavaScript 101](#)
-* [Coding tips & tricks](./resources.md)
+* [Coding resources & tips](./resources.md)
 * [Product management resources](#)
 * [Mood tracker & personal journal](#)
 
