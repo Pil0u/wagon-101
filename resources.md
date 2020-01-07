@@ -10,3 +10,12 @@ To break a line, you have to add **two spaces** at the end of it.
 ## Terminal / Bash
 
 [Learn Enough Command Line To Be Dangerous](https://www.learnenough.com/command-line-tutorial/basics)
+
+Use `ls -LR` to list all files in all folders and sub-folders.
+
+## Git / GitHub
+
+[Graphical `git` interactive tutorial](https://learngitbranching.js.org/)
+[Basic Git cheat sheet for everyday use](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+[Interactive complete Git cheat sheet](http://www.ndpsoftware.com/git-cheatsheet.html)
+[How The Internet Will Transform Government (TED 2012)](https://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government)
