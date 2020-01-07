@@ -19,3 +19,9 @@ Use `ls -LR` to list all files in all folders and sub-folders.
 [Basic Git cheat sheet for everyday use](https://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 [Interactive complete Git cheat sheet](http://www.ndpsoftware.com/git-cheatsheet.html)
 [How The Internet Will Transform Government (TED 2012)](https://www.ted.com/talks/clay_shirky_how_the_internet_will_one_day_transform_government)
+
+## Sublime Text 3
+
+[Keyboard shortcuts cheat sheet](https://www.cheatography.com/tdeyle/cheat-sheets/sublime-text-3/)
+
+Replace every selection: `Alt + F3`
