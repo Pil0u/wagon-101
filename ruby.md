@@ -20,15 +20,15 @@ This page was written following Le Wagon's internal resources.
 * [Regexp](https://ruby-doc.org/core-2.6.5/Regexp.html/)
 * [Time](https://ruby-doc.org/core-2.6.5/Time.html/)
 
-## Active Record
+## Active Record
 
 `rake` database methods:
-* `rake db:create`		# Creates your database
-* `rake db:drop`		# Destroys your whole database
-* `rake db:migrate`		# Runs any migrations that haven't already been run
-* `rake db:version`		# Retrieves the current schema version number
-* `rake db:seed`		# Populates your database with sample data
-* `rake db:timestamp`	# Gives you a timestamp for your migration file name
+* `rake db:create` # Creates your database
+* `rake db:drop` # Destroys your whole database
+* `rake db:migrate` # Runs any migrations that haven't already been run
+* `rake db:version` # Retrieves the current schema version number
+* `rake db:seed` # Populates your database with sample data
+* `rake db:timestamp` # Gives you a timestamp for your migration file name
 
 Methods that can be used on Models:
 * `Model.first` retrieves the first record of Model in the database (depends on the Primary key!)
