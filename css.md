@@ -37,4 +37,4 @@ Horizontal margins add up, vertical margins overlap:
 > An element with `display: none` will be completely removed from the web page. An element with `visibility: hidden`, however, will not be visible on the web page, but the space reserved for it will.
 
 
-[The Content-Box Model](https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__contentbox.svg "The Content-Box Model")
+![The Content-Box Model](https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__contentbox.svg "The Content-Box Model")
