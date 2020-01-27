@@ -6,6 +6,7 @@ This repository plays two main roles:
 
 As this is tailored to my personal experience, it may or may not be exhaustive to you. Feel free to fork or add comments.
 
+* [Ruby 101](./ruby.md)
 * [HTML 101](./html.md)
 * [CSS 101](./css.md)
 * [JavaScript 101](#)
