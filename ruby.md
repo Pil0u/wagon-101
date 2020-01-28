@@ -5,20 +5,20 @@ This page was written following Le Wagon's internal resources.
 ## Official Ruby doc (2.6.5)
 
 ### Basic classes
-* [Array](https://ruby-doc.org/core-2.6.5/Array.html/)
-* [Enumerable](https://ruby-doc.org/core-2.6.5/Enumerable.html/)
-* [Integer](https://ruby-doc.org/core-2.6.5/Integer.html/)
-* [Float](https://ruby-doc.org/core-2.6.5/Float.html/)
-* [String](https://ruby-doc.org/core-2.6.5/String.html/)
-* [Symbol](https://ruby-doc.org/core-2.6.5/Symbol.html/)
+* [Array](https://ruby-doc.org/core-2.6.5/Array.html)
+* [Enumerable](https://ruby-doc.org/core-2.6.5/Enumerable.html)
+* [Integer](https://ruby-doc.org/core-2.6.5/Integer.html)
+* [Float](https://ruby-doc.org/core-2.6.5/Float.html)
+* [String](https://ruby-doc.org/core-2.6.5/String.html)
+* [Symbol](https://ruby-doc.org/core-2.6.5/Symbol.html)
 
 ### Utilities
-* [Exception](https://ruby-doc.org/core-2.6.5/Exception.html/)
-* [File](https://ruby-doc.org/core-2.6.5/File.html/)
-* [IO](https://ruby-doc.org/core-2.6.5/IO.html/)
-* [Random](https://ruby-doc.org/core-2.6.5/Random.html/)
-* [Regexp](https://ruby-doc.org/core-2.6.5/Regexp.html/)
-* [Time](https://ruby-doc.org/core-2.6.5/Time.html/)
+* [Exception](https://ruby-doc.org/core-2.6.5/Exception.html)
+* [File](https://ruby-doc.org/core-2.6.5/File.html)
+* [IO](https://ruby-doc.org/core-2.6.5/IO.html)
+* [Random](https://ruby-doc.org/core-2.6.5/Random.html)
+* [Regexp](https://ruby-doc.org/core-2.6.5/Regexp.html)
+* [Time](https://ruby-doc.org/core-2.6.5/Time.html)
 
 ## Active Record
 
