@@ -5,24 +5,24 @@ This page was written following Le Wagon's internal resources.
 ## Official Ruby doc (2.6.5)
 
 ### Basic classes
-* [Array](https://ruby-doc.org/core-2.6.5/Array.html/)
-* [Enumerable](https://ruby-doc.org/core-2.6.5/Enumerable.html/)
-* [Integer](https://ruby-doc.org/core-2.6.5/Integer.html/)
-* [Float](https://ruby-doc.org/core-2.6.5/Float.html/)
-* [String](https://ruby-doc.org/core-2.6.5/String.html/)
-* [Symbol](https://ruby-doc.org/core-2.6.5/Symbol.html/)
+* [Array](https://ruby-doc.org/core-2.6.5/Array.html)
+* [Enumerable](https://ruby-doc.org/core-2.6.5/Enumerable.html)
+* [Integer](https://ruby-doc.org/core-2.6.5/Integer.html)
+* [Float](https://ruby-doc.org/core-2.6.5/Float.html)
+* [String](https://ruby-doc.org/core-2.6.5/String.html)
+* [Symbol](https://ruby-doc.org/core-2.6.5/Symbol.html)
 
 ### Utilities
-* [Exception](https://ruby-doc.org/core-2.6.5/Exception.html/)
-* [File](https://ruby-doc.org/core-2.6.5/File.html/)
-* [IO](https://ruby-doc.org/core-2.6.5/IO.html/)
-* [Random](https://ruby-doc.org/core-2.6.5/Random.html/)
-* [Regexp](https://ruby-doc.org/core-2.6.5/Regexp.html/)
-* [Time](https://ruby-doc.org/core-2.6.5/Time.html/)
+* [Exception](https://ruby-doc.org/core-2.6.5/Exception.html)
+* [File](https://ruby-doc.org/core-2.6.5/File.html)
+* [IO](https://ruby-doc.org/core-2.6.5/IO.html)
+* [Random](https://ruby-doc.org/core-2.6.5/Random.html)
+* [Regexp](https://ruby-doc.org/core-2.6.5/Regexp.html)
+* [Time](https://ruby-doc.org/core-2.6.5/Time.html)
 
 ## Active Record
 
-`rake` database methods:
+### `rake` database methods
 * `rake db:create` # Creates your database
 * `rake db:drop` # Destroys your whole database
 * `rake db:migrate` # Runs any migrations that haven't already been run
@@ -30,7 +30,7 @@ This page was written following Le Wagon's internal resources.
 * `rake db:seed` # Populates your database with sample data
 * `rake db:timestamp` # Gives you a timestamp for your migration file name
 
-Methods that can be used on Models:
+### Methods used on Models
 * `Model.first` retrieves the first record of Model in the database (depends on the Primary key!)
 * `Model.first(10)` ~ `SELECT * FROM models LIMIT 10;`
 * `Model.last` retrieves the last record of Model in the database
@@ -40,4 +40,17 @@ Methods that can be used on Models:
 * `Model.where("title LIKE "%example%")` is the general `WHERE` syntax
 * `Model.order(column: :asc)` ~ `SELECT * FROM models ORDER BY column ASC;`
 
+### Models validations
+* `validates :order, presence: true` or `absence:` to check the presence or absence of an item
+* `validates :email, uniqueness: true` to make sure the item is unique
+* `length:` with a `minimum:`, a `maxium:`, a range (`in:`) or an exact value (`is:`)
+* `validates :email, confirmation: true` with `validates :email_confirmation, presence: true` for two identical text fields
+* `validates :legacy_code, format: { with: /\A[a-zA-Z]+\z/, message: "only allows letters" }` to match regex
+* `validates :size, inclusion: { in: %w(small medium large) }` or `exclusion:` to limit or exclude possibilities
+* `validates :points, numericality: true` to check a numeric value, with parameters such as `only_integer:`, `equal_to:`, `less_than:`, `ood:`, `even:`...
+* `validates :terms_of_service, acceptance: true` for checkboxes
+* `validates_associated :books` to make sure associated models also need to be validated
+
+General parameters exist, such as `on:` (to apply on create, update...) and `message:` (to specify error message)
+Validations can be conditional, using `if:` or more complex Proc and Lambdas.
 
