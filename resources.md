@@ -38,6 +38,6 @@ Replace every selection: `Alt + F3`
 
 ### Finding fonts
 
-[Font Squirrel](https://www.fontsquirrel.com/)
-[GetTheFont](https://www.getthefont.com/)
-[Google Font](https://fonts.google.com/)
+[Font Squirrel](https://www.fontsquirrel.com/)  
+[GetTheFont](https://www.getthefont.com/)  
+[Google Font](https://fonts.google.com/)  
