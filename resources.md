@@ -36,7 +36,7 @@ Replace every selection: `Alt + F3`
 
 ## Front
 
-### Finding fonts
+### Finding fonts 
 
 [Font Squirrel](https://www.fontsquirrel.com/)  
 [GetTheFont](https://www.getthefont.com/)  
