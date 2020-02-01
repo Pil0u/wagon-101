@@ -33,3 +33,11 @@ Use `ls -LR` to list all files in all folders and sub-folders.
 [Keyboard shortcuts cheat sheet](https://www.cheatography.com/tdeyle/cheat-sheets/sublime-text-3/)
 
 Replace every selection: `Alt + F3`
+
+## Front
+
+### Finding fonts
+
+[Font Squirrel](https://www.fontsquirrel.com/)
+[GetTheFont](https://www.getthefont.com/)
+[Google Font](https://fonts.google.com/)
