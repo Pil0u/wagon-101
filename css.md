@@ -24,7 +24,7 @@ Separate CSS selectors with commas to apply one rule for multiple selectors.
 
 ## Box-models and positioning
 
-![The Box Model](https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-boxmodel.svg "The Box Model")
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-boxmodel.svg" alt="The Box Model" width="540">
 
 `margin` and `padding` syntaxes:
 * `top right bottom left` (in pixels)
@@ -32,16 +32,16 @@ Separate CSS selectors with commas to apply one rule for multiple selectors.
 * to centre using `0 auto`, you need to specify a `width`
 
 Horizontal margins add up, vertical margins overlap:
-![Effective margin distances](https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-verticalmargins.svg "Effective margin distances")
+<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/diagram-verticalmargins.svg" alt="Effective margin distances" width="540">
 
 `overflow` can be set to `display`, `hide` or `scroll`.
 
 > An element with `display: none` will be completely removed from the web page. An element with `visibility: hidden`, however, will not be visible on the web page, but the space reserved for it will.
 
-
-![The Content-Box Model](https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__contentbox.svg "The Content-Box Model")
+<img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__contentbox.svg" alt="The Content-Box Model" width="540">
 vs
-![The Border-Box Model](https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__borderbox.svg "The Border-Box Model")
+<img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/htmlcss1-diagram__borderbox.svg" alt="The Border-Box Model" width="540">
+
 that can be triggered with:
 ``` css
 * {
@@ -92,7 +92,7 @@ You can use the `repeat()` function, useful to build a equally sized grid with `
 You can use the `minmax(min, max)` function with a responsive grid, to set size boundaries of columns or rows.
 `grid-gap: 20px 10px` to set the distance between rows to 20 pixels and the distance between columns to 10 pixels.
 
-![Grid and grid items](https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-i/css_grid_diagram_2.svg "Grid and grid items")
+<img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-i/css_grid_diagram_2.svg" alt="Grid and grid items" width="540">
 
 `grid-row: 1 / 3;` ~ `grid-row-start: 1; grid-row-end: 3;` (matches the A example above)
 `grid-column: 4 / 6;` ~ `grid-column: 4 / span 2;`
