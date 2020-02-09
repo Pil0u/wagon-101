@@ -100,4 +100,11 @@ You can use the `minmax(min, max)` function with a responsive grid, to set size 
 
 ### Advanced
 
+`grid-template-areas` helps naming elements to cover specific areas of the grid. Each element needs a name specified in a `grid-area` property.  
+`justify-items` positions elements of the grid on the row axis. `justify-content` positions groups of elements.  
+Respectively for the column axis: `align-items` and `align-content`.  
+Use `justify-self` or `align-self` to override for a specific element.
 
+`grid-auto-rows` specifies the height of rows added implicitly to the grid.  
+`grid-auto-columns` specifies the width of columns added implicitly to the grid.  
+`grid-auto-flow` specifies in which direction implicit elements should be created.  
