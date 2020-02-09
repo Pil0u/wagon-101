@@ -60,14 +60,14 @@ Use the `z-index` property (integers) to manage elements overlapping.
 `headings`, `p` and `div` are `display: block` by default, i.e. fills the entire width and matches height to the content.
 `display: inline-block` combines both of them, allowing divs to align horizontally while keeping content as blocks.
 
-## Fonts
+## Fonts
 
 **Not more than 3 different fonts for one page.**
 
-Main properties are `font-family`, `font-weight`, `text-align` (center)
+Main properties are `font-family`, `font-weight`, `text-align` (center)  
 Other interesting properties: `font-style` (normal, _italic_), `word-spacing` (0.25em), `letter-spacing` (0.3em), `text-transform` (uppercase), `line-height` (1.4)
 
-Using external fonts is possible with Google Font or `@font-face`.
+Using external fonts is possible with Google Font or `@font-face`.  
 We can also host our own fonts and call them locally with `@font-face`:
 ``` css
 @font-face {
@@ -86,17 +86,17 @@ Resources to find fonts:
 
 ### Basics
 
-Keyword: `display: grid;`
-`grid-template: 40px 50px / 100%;` is the equivalent of `grid-template-rows: 40px 50px; grid-template-columns: 100%;`
-You can use the `repeat()` function, useful to build a equally sized grid with `fr`: `grid-template: repeat(3, 1fr) / repeat(5, 1fr);`
-You can use the `minmax(min, max)` function with a responsive grid, to set size boundaries of columns or rows.
+Keyword: `display: grid;`  
+`grid-template: 40px 50px / 100%;` is the equivalent of `grid-template-rows: 40px 50px; grid-template-columns: 100%;`  
+You can use the `repeat()` function, useful to build a equally sized grid with `fr`: `grid-template: repeat(3, 1fr) / repeat(5, 1fr);`  
+You can use the `minmax(min, max)` function with a responsive grid, to set size boundaries of columns or rows.  
 `grid-gap: 20px 10px` to set the distance between rows to 20 pixels and the distance between columns to 10 pixels.
 
 <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-i/css_grid_diagram_2.svg" alt="Grid and grid items" width="540">
 
-`grid-row: 1 / 3;` ~ `grid-row-start: 1; grid-row-end: 3;` (matches the A example above)
-`grid-column: 4 / 6;` ~ `grid-column: 4 / span 2;`
-`grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end`
+`grid-row: 1 / 3;` ~ `grid-row-start: 1; grid-row-end: 3;` (matches the A example above)  
+`grid-column: 4 / 6;` ~ `grid-column: 4 / span 2;`  
+`grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end`  
 
 ### Advanced
 
