@@ -20,6 +20,31 @@ This page was written following Le Wagon's internal resources.
 * [Regexp](https://ruby-doc.org/core-2.6.5/Regexp.html)
 * [Time](https://ruby-doc.org/core-2.6.5/Time.html)
 
+## Core Ruby
+
+* `%w(item1, item2)` ~ `["item1", "item2"]`
+* `p <object>` ~ `puts <object>.inspect`
+* `Symbol` ~ Immutable `String`, with storage optimization. Syntax: `:symbol`
+* Converting binary: `"%032b" % number` ~ `number.to_s(2).rjust(32, '0')`
+* On a `RegExp` object with groups `()`, use the `.match` method with a `String` as parameter
+* Use the `.scan` method to retrieve all matches in an `Array`
+* When dividing numbers, add a `.to_f` to one of them if you want floating point results
+* Casting elements of an `Array`: `an_array.map(&:to_i)`
+* Copying an object: `my_object.clone`
+* Console parameters are stored in a `ARGV` Array
+* Sorting a Hash by values: `my_hash.sort_by { |_key, value| value }`
+
+
+### Basic scraping with `Nokogiri`
+
+``` ruby
+doc = Nokogiri::HTML(open("https://myurl.com"), nil, 'utf-8')
+
+doc.search('some_css_selector').each do |element|
+	title = element.search('other_css_selector').text.strip
+end
+```
+
 ## Active Record
 
 ### `rake` database methods
