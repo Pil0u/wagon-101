@@ -1,5 +1,7 @@
 # Le Wagon 101 - Batch #343
 
+## This repository is mostly outdated. It was a great support during Le Wagon's bootcamp.
+
 This repository plays two main roles:
 1. Familiarize myself with git and Github
 2. Centralize the resources I might find useful during the prep work and first weeks of the bootcamp
